@@ -1,0 +1,21 @@
+.addTaskButton {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 32px;
+  cursor: pointer;
+  transition: 1s transform;
+  transition-timing-function: cubic-bezier(0.77,-0.06, 0.27, 1.55);
+  background-color: #cccccc;
+  z-index: 1;
+}
+
+.addTaskButton:hover {
+  border: 2px solid #818181;
+  background-color: #c4c4c4;
+  transform: rotate(90deg);
+}
